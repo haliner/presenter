@@ -1,0 +1,20 @@
+name:                presenter
+version:             0.1.0.0
+license:             GPL-3
+license-file:        LICENSE
+author:              Stefan Haller
+maintainer:          haliner@gmail.com
+copyright:           (c) 2014 Stefan Haller
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable presenter
+  main-is:
+    Main.hs
+
+  build-depends:
+    base,
+    scotty
+
+  default-language:
+    Haskell2010
